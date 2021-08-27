@@ -1,0 +1,10 @@
+server:
+  port: 0.0.0.0:9000
+mysql:
+  uri: bravvoxDev:zWfuUjn5bbx8S34JYU6f!@tcp(3.215.176.54:3306)/bravvox_notifications?charset=utf8mb4&parseTime=True&loc=Local  
+redis:
+  uri: localhost:6379
+rabbitmq:
+  uri: amqp://fcAdmin:zWfuUjn5bbx8S34JYU6f@3.235.250.220:5672
+
+USER_PROFILE_API_BASE_URL: "http://3.215.153.42:8002/accounts/v1/internal/users?userid="
