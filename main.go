@@ -53,13 +53,6 @@ func startService() {
 		logger.Fatalf("Failed to open secrets for %q: %v", serviceName, err)
 	}
 
-	// `secret` is central standard library package that gets connection strings from Vault secrets.
-	// TODO: `secret` package may not be finished yet, in that case it defaults to using Viper and reading
-	// yaml config files from ./config .
-
-	// Config files are based on BR_ENV environment variable.
-	// Use `make run-dev` to start dev server and read ./config/dev.yaml file.
-
 	//db connect
 	dbURI, err := sec.Get(dbengName)
 	if err != nil {

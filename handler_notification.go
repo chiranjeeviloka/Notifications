@@ -12,8 +12,6 @@ const (
 	notificationMessage = "User notifications"
 )
 
-// TODO: This is just an example handler.
-
 func (svr *Service) ViewNotification(c *gin.Context) {
 
 	// gorm.DB is embeded into our MySQLStore struct that implements Store interface.

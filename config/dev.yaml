@@ -8,3 +8,4 @@ rabbitmq:
   uri: amqp://fcAdmin:zWfuUjn5bbx8S34JYU6f@3.235.250.220:5672
 
 USER_PROFILE_API_BASE_URL: "http://3.215.153.42:8002/accounts/v1/internal/users?userid="
+USER_ACCOUNT_SERVICE_KEY: "zWfuUjn5bbx8S34JYUnf-newsfeed"

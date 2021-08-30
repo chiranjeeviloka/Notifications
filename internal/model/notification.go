@@ -12,10 +12,10 @@ type User struct {
 
 type Notification struct {
 	gorm.Model
-	DocumentID 	string 	`gorm:"not null"`
-	UserID     	int    	`gorm:"not null"`
-	Type       	int    	`gorm:"not null"`
-	Message    	string 	`gorm:"not null"`
-	DomainID   	int    	`gorm:"not null"`
-	HasClicked	int		`gorm:"not null"`
+	DocumentID string `gorm:"not null"`
+	UserID     string `gorm:"not null"`
+	Type       int    `gorm:"not null"`
+	Message    string `gorm:"not null"`
+	DomainID   int    `gorm:"not null"`
+	HasClicked int    `gorm:"not null"`
 }

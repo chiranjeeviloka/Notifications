@@ -11,3 +11,10 @@ type NotificationResponseData struct {
 	PostLink       string `json:"postLink"`
 	NotificationID string `json:"notificationId"`
 }
+
+type ServiceResponse struct {
+	Error   bool                     `json:"error"`
+	Message string                   `json:"message"`
+	Data    []map[string]interface{} `json:"data"`
+	Status  int                      `json:"status"`
+}
